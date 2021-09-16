@@ -28,3 +28,12 @@ for d in data:
 print('一共有', len(new), '筆留言長度小於100') #如果寫再for loop裡面，每次loop就印一次
 print(new[0]) #印出第一筆留言長度<100
 print(new[1]) #印出第二筆留言長度<100
+
+
+good = []
+for d in data:
+    if 'good' in d:
+        good.append(d)
+print('一共有', len(good), '筆留言包含good')
+print(new[0]) #印出第一筆留言包含good
+print(new[1]) #印出第二筆留言包含good
